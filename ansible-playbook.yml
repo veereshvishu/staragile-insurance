@@ -1,5 +1,5 @@
 - name : Configure Docker on EC2 Instances
-  hosts : host01
+  hosts : all
   become: true
   tasks : 
   - name: updating apt
