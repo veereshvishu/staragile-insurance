@@ -2,6 +2,6 @@
   hosts : all
   become: true
   connection : ssh
-  tasks :
+  tasks : 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 veereshvishu/health-insure-me:3.0
+    command: docker run -itd -p 8084:8081 veereshvishu/insure-me:3.0
